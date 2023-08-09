@@ -1,0 +1,170 @@
+@media only screen and (max-width: 500px) {
+
+.head{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+
+}
+.point{
+margin: auto;
+text-align: center;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+
+}
+.info .q{
+    width: 350px;
+    margin-left: 0px;
+    padding: 0%;
+}
+.info{
+    margin: 0%;
+    padding: 20px;
+    padding-right: 0%;
+}
+.info .i{
+    padding: 15px;
+    font-size: 29px;
+}
+.photo{
+    margin: auto;
+    margin-top: -40px;
+}
+.q P {
+position: relative;
+top: 500px;
+width: 350px;
+}
+.q .Z{
+position: relative;
+top: 500px;
+width: 350px;
+}
+.fl{
+    display: flex;
+    flex-direction: column;
+}
+.fl .f1{
+    width: 400px;
+}
+.f1 img{
+    width: 400px;
+    height: 450px;
+}
+.fl .f2{
+    width: 400px;
+}
+.f2 img{
+    width: 400px;
+    height: 450px;
+}
+.fl .f3{
+    width: 400px;
+}
+.f3 img{
+    width: 400px;
+    height: 450px;
+}
+
+
+.slider{
+    width: 400PX;
+    height: 1000px;
+    overflow: hidden;
+    margin-left: 0%;
+    margin: auto;
+}
+.slider img{
+width: 400px;
+}
+.slider li{
+    display: block;
+    float: none;
+    position: relative;
+    height: 200px;
+    border-left: solid  #1C0C5B 10px;
+    transition: all 0.5s;
+}
+.slider li div{
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    background-color: #916BBF;
+    height: 40px;
+}
+.slider li div a{
+    display: block;
+    color:wheat;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Righteous', cursive;
+    font-size: x-large;
+    text-decoration: none;
+    padding-left:  10px;
+}
+.slider ul:hover li{
+   height: 70px;
+}
+.slider ul li:hover {
+    height: 330px;
+    filter: drop-shadow(12px 12px 7px #C996CC);
+}
+
+.glass{
+    width: 210px;
+    height: 210px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    }
+#contact{
+font-size: 60px;
+}
+.phone{
+font-size: 20px;
+}
+.fl{
+    width: 400px;
+}
+.about{
+    width: 400px;
+}
+.info{
+    width: 400px;
+}
+.fl img{
+    width: 370px;
+}
+.q h1{
+    margin-top: 20px;
+}
+#about{
+    margin-top: 60px;
+}
+.f1 h1{
+    margin-top: 25px;
+    margin-left: -15px;
+}
+.f2 h1{
+    margin-top: 25px;
+    margin-left: -35px;
+}
+.f3 h1{
+    margin-top: 15px;
+    margin-left: -20px;
+}
+
+
+
+
+
+
+
+
+}

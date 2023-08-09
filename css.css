@@ -1,0 +1,461 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+.a{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: minmax(100px,auto);
+    background-color: #1C0C5B;
+}
+/* .head{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); }
+        */
+ 
+.logo{
+    margin-left: 10%;
+    margin-top: 10px;
+    width: 330px;
+    height: 150px;
+    float: left;
+}
+.boum{
+    display: none;
+}
+.for{
+    font-size: xx-large;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Righteous', cursive; 
+    color: #916BBF;
+
+}
+.logo:hover{
+.acolada{
+    translate: -50px 0;
+}
+.acoladb{
+    translate: 50px 0;
+}
+.boum{
+    display: inline;
+    font-size: xx-large;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Righteous', cursive;
+    color: #916BBF;
+    
+}
+}
+.point{
+    position: relative;
+    margin-right: 30px;
+    margin-top: 50px;
+    float: right;
+    
+}
+.point a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: #916BBF;
+    font-size: x-large;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Righteous', cursive;
+    
+}
+.info{
+    color: #916BBF;
+    padding-left:10%;
+    padding-top:10%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Righteous', cursive;
+}
+.info p{
+    color: #C996CC;
+    width: 550px;
+}
+.info .i{
+    color: #C996CC;
+    font-size: 70px;
+
+}
+.photo{
+    float: right;
+    position: relative;
+    bottom: 80px;
+    right: 80px;
+
+}
+.q{
+  float: left;  
+}
+.q h1{
+    font-size: 100px;
+}
+.photo img{
+    width: 350px;
+    height: 470px;
+    border-color: #C996CC;
+    filter: drop-shadow(12px 12px 7px #C996CC);
+}
+
+.care1{
+    background-color: transparent;
+    border-radius: 0%;
+    border: 2PX solid #C996CC;
+    width: 40px;
+    height: 40px;
+    animation-name: care1;
+    animation-delay: 0s;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+}
+@keyframes care1{
+    0%{
+        translate: -80px -700px;
+        rotate: 0deg;
+        scale: 0;
+    }
+    100%{
+        translate: -80px 500px;
+        rotate: 360deg;
+        opacity: 0;
+        scale: 3;
+    }
+}
+.point a:hover {
+    -webkit-animation: text-shadow-pop-bl 0.6s both;
+    animation: text-shadow-pop-bl 0.6s both;
+}
+@-webkit-keyframes text-shadow-pop-bl {
+    0% {
+      text-shadow: 0 0  #C996CC, 0 0  #C996CC, 0 0  #C996CC, 0 0  #C996CC, 0 0  #C996CC, 0 0  #C996CC, 0 0  #C996CC, 0 0  #C996CC;
+      -webkit-transform: translateX(0) translateY(0);
+              transform: translateX(0) translateY(0);
+    }
+    100% {
+      text-shadow: -1px 1px  #C996CC, -2px 2px  #C996CC, -3px 3px  #C996CC, -4px 4px  #C996CC, -5px 5px  #C996CC, -6px 6px  #C996CC, -7px 7px  #C996CC, -8px 8px  #C996CC;
+      -webkit-transform: translateX(8px) translateY(-8px);
+              transform: translateX(8px) translateY(-8px);
+    }
+  }
+  @keyframes text-shadow-pop-bl {
+    0% {
+      text-shadow: 0 0  #C996CC, 0 0  #C996CC, 0 0  #C996CC, 0 0  #C996CC, 0 0  #C996CC, 0 0  #C996CC, 0 0  #C996CC, 0 0  #C996CC;
+      -webkit-transform: translateX(0) translateY(0);
+              transform: translateX(0) translateY(0);
+    }
+    100% {
+      text-shadow: -1px 1px  #C996CC, -2px 2px  #C996CC, -3px 3px  #C996CC, -4px 4px  #C996CC, -5px 5px  #C996CC, -6px 6px  #C996CC, -7px 7px  #C996CC, -8px 8px  #C996CC;
+      -webkit-transform: translateX(8px) translateY(-8px);
+              transform: translateX(8px) translateY(-8px);
+    }
+  }
+.sz{
+    text-align: center;
+    font-size: 100px;
+    color: #C996CC;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Righteous', cursive;
+}
+.sz:hover {
+	-webkit-animation: tracking-out-contract 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: tracking-out-contract 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+ @-webkit-keyframes tracking-out-contract {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+  }
+  @keyframes tracking-out-contract {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+  }
+.fl{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-items: center;
+    justify-content: space-around;
+
+}
+.fl .f1{
+    width: 450px;
+}
+.f1 img{
+    width: 450px;
+    height: 500px;
+    left: 100px;
+}
+.f1 h1{
+    position: relative;
+    bottom: 300px;
+    left: 130px;
+    width: 70px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Righteous', cursive;
+    color:#C996CC;
+    border: #1C0C5B solid 3px;
+}
+.f1 div{
+    border-bottom:#C996CC solid 3px;
+    position: relative;
+    bottom: 100px;
+    width: 300px;
+    margin: auto;
+    padding-bottom: 10px;
+
+
+}
+.f1 div p{
+    color: #C996CC;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+}
+.f1 div h2{
+    color:wheat;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Righteous', cursive;
+}
+.fl .f2{
+    width: 450px;
+}
+.f2 img{
+    width: 450px;
+    height: 500px;
+    margin: auto;
+}
+.f2 ul li img{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+}
+.f2 ul li div{
+    display: inline-block;
+    background-color: #916BBF;
+    width: 310px;
+    position: relative;
+    bottom: 20px;
+    margin-left: 10px;
+    padding-left: 8px;
+    border-radius: 100px;
+    border: #916BBF solid 5px;
+    color:wheat;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Righteous', cursive;
+    
+}
+.f2 h1{
+    position: relative;
+    bottom: 280px;
+    left: 180px;
+    width: 70px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Righteous', cursive;
+    font-size: 50PX;
+    color:#C996CC;
+    border: #1C0C5B solid 3px; 
+}
+.f2 h3{
+    position: relative;
+    bottom: 100px;
+    width: 300px;
+    margin: auto;
+    color:wheat;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Righteous', cursive;
+    font-size: x-large;
+}
+.f2 ul{
+    position: relative;
+    bottom: 100px;
+    margin: auto;  
+    list-style-type: none; 
+}
+.f2 ul .li1 div{
+    background: rgb(201,150,204);
+    background: linear-gradient(90deg, rgba(201,150,204,1) 98%, rgba(145,107,191,1) 98%);
+}  
+
+.f2 ul .li2 div{
+    background: rgb(201,150,204);
+    background: linear-gradient(90deg, rgba(201,150,204,1) 98%, rgba(145,107,191,1) 98%);
+}
+
+.f2 ul .li3 div{
+    background: rgb(201,150,204);
+    background: linear-gradient(90deg, rgba(201,150,204,1) 98%, rgba(145,107,191,1) 98%);
+} 
+
+.f2 ul .li4 div{
+    background: rgb(201,150,204);
+    background: linear-gradient(90deg, rgba(201,150,204,1) 40%, rgba(145,107,191,1) 40%);
+}
+.f2 ul .li5 div{
+    background: rgb(201,150,204);
+    background: linear-gradient(90deg, rgba(201,150,204,1) 30%, rgba(145,107,191,1) 30%);
+}
+.f2 ul .li6 div{
+    background: rgb(201,150,204);
+    background: linear-gradient(90deg, rgba(201,150,204,1) 85%, rgba(145,107,191,1) 85%);
+}
+.f2 ul{
+    color:#C996CC;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Righteous', cursive; 
+    
+}
+.f2 .as{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.fl .f3{
+    width: 450px;
+}
+.f3 img{
+    width: 450px;
+    height: 500px;
+    margin: auto;
+}
+.f3 h1{
+    position: relative;
+    bottom: 270px;
+    left: 130px;
+    width: 70px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Righteous', cursive;
+    font-size: 45PX;
+    color:#C996CC;
+    border: #1C0C5B solid 3px;
+}
+.f3 P{
+    position: relative;
+    bottom: 100px;
+    width: 300px;
+    margin: auto;
+    color:wheat;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Righteous', cursive;
+    font-size: x-large;
+}
+.f3 .math{
+    width: 400px;
+    height: 400px;
+}
+.slider{
+    margin: auto;
+    width: 1300PX;
+    height: 700px;
+    overflow: hidden;
+}
+.slider li{
+    display: block;
+    float: left;
+    position: relative;
+    width: 250px;
+    border-left: solid  #1C0C5B 10px;
+    transition: all 0.5s;
+}
+.slider li div{
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    background-color: #916BBF;
+    width: 800px;
+    height: 40px;
+}
+.slider li div a{
+    display: block;
+    color:wheat;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Righteous', cursive;
+    font-size: x-large;
+    text-decoration: none;
+    padding-left:  10px;
+}
+.slider ul:hover li{
+    width: 70px;
+}
+.slider ul li:hover {
+    width: 800px;
+    filter: drop-shadow(12px 12px 7px #C996CC);
+}
+
+.glass{
+background: rgba(255, 255, 255, 0.4);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10.2px);
+-webkit-backdrop-filter: blur(10.2px);
+border: 1px solid rgba(255, 255, 255, 0.17);
+width: 800px;
+height: 100px;
+margin: auto;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.phone{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Righteous', cursive;
+    font-size: 25PX;
+    color:#C996CC;
+    text-align: center;
+}
+.content button{
+    text-align: center;
+    width: 340px;
+    height: 80px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Righteous', cursive;
+    font-size: 35PX;
+    color:wheat;
+    background-color: #916BBF;
+    border-radius: 60px;
+    
+}
+.content .b{
+    text-align: center;
+}
+.content button:hover{
+    border:wheat 5px solid;
+}
